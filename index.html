@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-black">
+    <div class="container flex">
+        <div class="left flex d-column bg-black">
+            <div class="close">
+                <img src="assets/close.svg" alt="" height="35px">
+            </div>
+            <div class="home bg-grey rounded p-1">
+                <img src="assets/logo.svg" alt="logo" class="">
+            </div>
+            <div class="library bg-grey rounded p-1">
+                <div class="heading flex items-center">
+                    <img src="assets/library.svg" alt="library" class="imgw-30px invert">
+                    <h2 class="">Your Library</h2>
+                </div>
+                <ul class="song-list">
+                </ul>
+                <div class="footer flex">
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="hamburger">
+                    <img src="assets/hamburger.svg" alt="" width="60px">
+                </div>
+            </div>
+            <div class="melodifyPlaylists p-1">
+                <h1 class="">Melodify Playlists</h1>
+                <div class="cardContainer">
+                    
+                </div>
+            </div>
+            <div class="playbar flex items-center justify-center">
+                <div class="infobar">
+                    <div class="songinfo"></div>
+                    <div class="songtime"></div>
+                    <div class="vol">
+                        <img src="assets/volume.svg" alt="" height="35px" class="invert">
+                        <input type="range" name="" id="volume" class="range">
+                    </div>
+                </div>
+                <div class="songbuttons flex items-center justify-center">
+                    <img id="previous" class="invert" width="40px" src="assets/prev-song.svg" alt="">
+                    <img id="play" width="40px" src="assets/play.svg" alt="">
+                    <img id="next" class="invert" width="40px" src="assets/next-song.svg" alt="">
+                </div>
+                <div class="seekbar bg-black">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

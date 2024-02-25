@@ -1,0 +1,5 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" width="230" height="80">
+  <text x="0" y="65" font-size="45" font-family="Arial Rounded Mt" fill="rgb(30, 215, 96)">Melodify</text>
+  <circle cx="207" cy="50" r="20" stroke="#1ed760" fill="#1ed760" stroke-width="1.5"/>
+  <path d="M 200,40 L 218,50 L 200,60 Z" fill="#121212"/>
+</svg>
